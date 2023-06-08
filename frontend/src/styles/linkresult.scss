@@ -1,0 +1,50 @@
+#result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //   border: 2px solid red;
+  height: 15vh;
+
+  > p {
+    height: 3rem;
+    width: 20rem;
+    font-family: $text2;
+    padding: 1.5rem;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-size: 1rem;
+    border: 2px solid $color5;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+  }
+  button {
+    height: 3rem;
+    width: 7rem;
+    font-family: $text2;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: $color2_1;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+      color: $color2_1;
+      background-color: #fff;
+    }
+  }
+  .copied {
+    background-color: #b2b3b8;
+    color: #000000;
+  }
+}
+
+.noData {
+  color: green;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
